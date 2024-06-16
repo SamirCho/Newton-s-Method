@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton's Method</title>
+    <script src="https://unpkg.com/mathjs@12.4.2/lib/browser/math.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Newton's Method</h1>
+    <div>equation:</div>
+    <span>0 = </span>
+    <input type="text" id="function" value="cos(x)-x" style="width:200px">
+    <br>
+    <br>
+    <br>
+    <div>initial guess:</div>
+    <input type="text" id="guess" value="0" style="width:100px">
+    <br>
+    <br>
+    <br>
+    <button onclick="display()">Sumbit</button>
+    <br>
+    <br>
+    <br>
+    <div id="container">x ≈ 0.7390851332151607</div>
+    </div>
+</body>
+</html>
